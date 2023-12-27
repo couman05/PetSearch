@@ -1,0 +1,257 @@
+﻿@model IEnumerable<PetSearch2.Models.Animals>
+@{
+    ViewData["Title"] = "Home";
+}
+@{
+    Layout = "_Layout";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - PetSearch</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/PetSearch2.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand">PetSearch</a>
+
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="MainPage" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Log Out</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+
+</body>
+</html>
+
+<style>
+    .animal-photo-container {
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        height: 70vh;
+    }
+
+    .animal-photo {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .quote-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .quote-text {
+        color: white;
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .name-text {
+        color: white;
+        font-size: 18px;
+    }
+
+    .round-image-container {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 530px;
+    }
+
+    .round-image {
+        border-radius: 50%;
+        width: 210px;
+        height: 210px;
+        margin: 60px;
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: center;
+        /*align-items: center;*/
+        flex-direction: row;
+        margin-top: 20px;
+    }
+
+        .button-container > div {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+    .button-text {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    a.btn {
+        border: none;
+        border-radius: 5px;
+        /*padding: 10px 20px;*/
+        font-size: 16px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+    }
+
+        a.btn:hover {
+            opacity: 0.8;
+        }
+
+    .column {
+        flex: 1;
+    }
+
+    .custom-button {
+        background-color: white;
+        color: #198754;
+        padding: 1vh 2vh;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    }
+
+        .custom-button:hover {
+            background-color: #198754;
+            color: white;
+            opacity: 0.8;
+        }
+
+    .text-center {
+        margin-bottom: 3vh;
+        margin-top: 5vh;
+    }
+</style>
+
+<h1>
+    <div>
+        <div class="animal-photo-container">
+            <img src="./images/main_page/doggy.jpg" alt="Animal Photo" class="animal-photo" />
+            <div class="quote-container">
+                <p class="quote-text">Committed to Excellence in Pet Care</p>
+            </div>
+        </div>
+    </div>
+</h1>
+<div class="round-image-container">
+    <img src="./images/main_page/dogscatss.jpg" class="round-image" />
+    <img src="./images/main_page/rabbit.jpg" class="round-image" />
+    <img src="./images/main_page/cateat.jpg" class="round-image" />
+</div>
+<div class="button-container">
+    <div class="column">
+        <a asp-action="Lost" class="btn custom-button">Lost</a>
+        <p class="button-text">Losing your beloved animal creates an immense void.Memories of their loyalty and playfulness linger, echoing through empty spaces.</p>
+        <p class="button-text">Share their image, connect with the community, and trust in fate's reunion.Embrace the hope that their presence will be felt again.</p>
+    </div>
+    <div class="column">
+        <!-- Add this style to move the buttons to the right -->
+        <a asp-action="Found" class="btn custom-button">Found</a>
+        <p class="button-text">We increase the chances of reuniting found animals with their families, bringing solace to worried owners and a sense of belonging to cherished companions.</p>
+        <p class="button-text">Join us to make a difference and create heartwarming stories that last a lifetime.</p>
+    </div>
+    <div class="column">
+        <!-- Add this style to move the buttons to the right -->
+        <a asp-action="AssignTask" class="btn custom-button">Assign a task to a specialist</a>
+        <p class="button-text">We believe in the power of collaboration and the compassion of professionals.</p>
+        <p class="button-text">By coming together, we can increase the chances of finding the perfect specialist to provide the necessary care, bringing comfort and healing to the injured animal.</p>
+    </div>
+</div>
+
+
+<h2 class="text-center" style="font-family: serif; color: #4C4C4C;">
+    All animals in our list. Look for yours!
+</h2>
+
+@if (Model != null && Model.Any())
+{
+    <style>
+        /* Add custom styles for the table */
+
+        .table-rounded {
+            border-collapse: separate;
+            border-spacing: 0;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+            .table-rounded th,
+            .table-rounded td {
+                border: 1px solid #ddd;
+                padding: 8px;
+                border-radius: 5px;
+            }
+
+            .table-rounded th {
+                background-color: #f2f2f2;
+            }
+
+        .rounded-circle {
+        @*border-radius: 30%;*@ height: 10vh;
+            width: 10vh;
+        }
+
+    </style>
+
+    <table class="table table-rounded">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.Animal_Name)</th>
+                <th>@Html.DisplayNameFor(model => model.Race)</th>
+                <th>@Html.DisplayNameFor(model => model.Color)</th>
+                <th>@Html.DisplayNameFor(model => model.Gender)</th>
+                <th>@Html.DisplayNameFor(model => model.Height)</th>
+                <th>@Html.DisplayNameFor(model => model.Species)</th>
+                <th>@Html.DisplayNameFor(model => model.Location)</th>
+                <th>@Html.DisplayName("Treatment needed")</th>
+                <th>@Html.DisplayName("Current Holder Phone Number")</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var animal in Model)
+            {
+                <tr>
+                    <td>
+                        <img src="~/images/@animal.Animal_Image" class="rounded-circle" asp-append-version="true" />
+                        @animal.Animal_Name
+                    </td>
+                    <td>@animal.Race</td>
+                    <td>@animal.Color</td>
+                    <td>@animal.Gender</td>
+                    <td>@animal.Height</td>
+                    <td>@animal.Species</td>
+                    <td>@animal.Location?.Location</td>
+                    <td>@animal.Specialties?.Specialty_Name</td>
+                    <td>@animal.Current_Holder_PhoneNumber</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

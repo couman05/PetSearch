@@ -1,0 +1,33 @@
+﻿
+@model Persons
+
+@using (Html.BeginForm("CreatePerson", "Persons", FormMethod.Post))
+{
+
+    <div>
+        @Html.LabelFor(m => m.Person_Name)
+        @Html.TextBoxFor(m => m.Person_Name)
+    </div>
+    <div>
+        @Html.LabelFor(m => m.Person_Email)
+        @Html.TextBoxFor(m => m.Person_Email)
+    </div>
+    <div>
+        @Html.LabelFor(m => m.Person_Username)
+        @Html.TextBoxFor(m => m.Person_Username)
+    </div>
+    <div>
+        @Html.LabelFor(m => m.Person_Password)
+        @Html.TextBoxFor(m => m.Person_Password)
+    </div>
+    <div>
+        @Html.LabelFor(m => m.Person_Phone_Number)
+        @Html.TextBoxFor(m => m.Person_Phone_Number)
+    </div>
+    <div>
+        @Html.LabelFor(m => m.Location_Id)
+        @Html.TextBoxFor(m => m.Location_Id)
+    </div>
+
+    <input type="submit" value="Insert" />
+}

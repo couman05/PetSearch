@@ -1,0 +1,184 @@
+﻿@model PetSearch2.Models.Tasks
+
+@{
+    ViewData["Title"] = "Lost ";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - PetSearch</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/PetSearch2.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand">PetSearch</a>
+
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="MainPageVets" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Log Out</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+
+</body>
+</html>
+
+<style>
+    .image-container {
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        height: 70vh;
+    }
+
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: left;
+        }
+
+    .image-overlay {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+        .image-overlay h5 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .image-overlay p {
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+    .form-container {
+        margin-top: 300px;
+    }
+
+        .form-container .card {
+            background-color: #fafafa;
+            border: none;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-container .card-header {
+            background-color: #fff;
+            border-bottom: none;
+            padding: 15px 20px;
+            text-align: center;
+            font-weight: bold;
+            color: #333;
+            font-size: 20px;
+        }
+
+        .form-container h4 {
+            margin: 0;
+            padding: 10px;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .form-container .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-container label {
+            font-weight: bold;
+        }
+
+        .form-container input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #404040;
+            border: none;
+            color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            border-radius: 5px; /* Added border radius for rounded appearance */
+        }
+
+        .form-container input[type="text"],
+        .form-container select {
+            border-radius: 5px; /* Added border radius for rounded appearance */
+            padding: 5px;
+        }
+
+        .form-container a {
+            display: block;
+            text-align: center;
+            color: #666666;
+            font-size: 14px;
+            text-decoration: none;
+        }
+
+            .form-container a:hover {
+                text-decoration: underline;
+            }
+</style>
+
+<div class="col-md-10 mx-auto py-4">
+    <div class="image-container">
+        <img src="./images/vet_mainpage/dogland.jpg" alt="Dog Image" class="img-fluid">
+        <div class="image-overlay">
+            <h5>Care for your friend!</h5>
+            <p>Choose the treatment you can offer.</p>
+        </div>
+    </div>
+
+    <div class="form-container">
+        <div class="card">
+            <div class="card-header">
+                <h4>Select the desired treatment option</h4>
+            </div>
+            <div class="card-body">
+                <form asp-action="Index">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="Specialty_Id" class="control-label">Specialty</label>
+                            <select asp-for="Specialty_Id" asp-items="@ViewBag.Specialties" class="form-control" required>
+                                <option value="">-- Select a specialty --</option>
+                            </select>
+                            <span asp-validation-for="Specialty_Id" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Submit" class="btn btn-primary" />
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

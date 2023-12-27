@@ -1,0 +1,175 @@
+﻿@model Persons
+
+@{
+    ViewData["Title"] = "Sign up";
+}
+<style>
+    .login-wrapper {
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+        backdrop-filter: blur(10px);
+    }
+
+    .login-form-container {
+        width: 1000px;
+        height: 600px;
+        background-color: white;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+        display: flex;
+        flex-direction: row;
+        backdrop-filter: blur(10px);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .image-container {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        background-color: #f9f9f9;
+    }
+
+    .login-form-container img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .form-container {
+        width: 60%;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    h4 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .form-group {
+        margin-bottom: 10px;
+    }
+
+    label {
+        font-weight: bold;
+        margin-bottom: 5px;
+        display: block; /* add block display */
+    }
+
+    input {
+        border-radius: 5px;
+        border: none;
+        padding: 8px; /* reduce padding */
+        font-size: 16px;
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+        margin-bottom: 10px;
+    }
+
+    button[type="submit"] {
+        background-color: #28a745;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+    }
+
+        button[type="submit"]:hover {
+            background-color: #218838;
+        }
+
+    a.btn {
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+    }
+
+        a.btn:hover {
+            opacity: 0.8;
+        }
+
+    .alert {
+        background-color: #f8d7da;
+        color: #721c24;
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+
+        .alert b {
+            font-weight: bold;
+        }
+
+</style>
+<div class="login-wrapper">
+    <div class="login-form-container">
+        <div class="image-container">
+            <img src="\images\background_homepage\cats.jpg" alt="Login Image">
+        </div>
+        <div class="form-container">
+            <h4>Sign up for a new account</h4>
+            @if (TempData["Error"] != null)
+            {
+                <div class="alert alert-danger">
+                    <span><b>Sorry!</b> - @TempData["Error"]</span>
+                </div>
+            }
+            <form asp-action="CreatePerson">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Person_Name" class="control-label">Name</label>
+                    <input asp-for="Person_Name" class="form-control" required />
+                    <span asp-validation-for="Person_Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Person_Email" class="control-label">Email</label>
+                    <input asp-for="Person_Email" class="form-control" required />
+                    <span asp-validation-for="Person_Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Person_Username" class="control-label">Username</label>
+                    <input asp-for="Person_Username" class="form-control" required />
+                    <span asp-validation-for="Person_Username" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Person_Password" class="control-label">Password</label>
+                    <input asp-for="Person_Password" type="password" class="form-control" required />
+                    <span asp-validation-for="Person_Password" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Person_Phone_Number" class="control-label">Phone Number</label>
+                    <input asp-for="Person_Phone_Number" class="form-control" required />
+                    <span asp-validation-for="Person_Phone_Number" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Location_Id" class="control-label">Location</label>
+                    <select asp-for="Location_Id" asp-items="@ViewBag.Locations" class="form-control" required>
+                        <option value="">-- Select a location --</option>
+                    </select>
+                    <span asp-validation-for="Location_Id" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input class="btn btn-outline-success float-right" type="submit" value="Sign up" />
+                    <a class="btn btn-outline-secondary" asp-controller="Home" asp-action="Index">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

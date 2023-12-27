@@ -1,0 +1,278 @@
+﻿@model PetSearch2.ViewModels.AnimalsViewModel
+
+@{
+    ViewData["Title"] = "Found";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - PetSearch</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/PetSearch2.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand">PetSearch</a>
+
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="MainPage" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Log Out</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+
+</body>
+</html>
+
+<style type="text/css">
+
+    body {
+        margin: 0;
+        padding: 0;
+        background: url('/images/background_lostpage/catincrezator.jpg') no-repeat center center fixed;
+        background-size: cover;
+        
+    }
+    
+    .navbar{
+        margin-right:-100px;
+        margin-left:-100px;
+    }
+
+    .form-style-5 {
+        max-width: 800px;
+        margin: 10px auto;
+        padding: 10px 20px;
+        background: #f4f7f8;
+        border-radius: 8px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        opacity: 0.7;
+    }
+
+        .form-style-5 fieldset {
+            border: none;
+        }
+
+        .form-style-5 legend {
+            font-size: 1.4em;
+            margin-bottom: 10px;
+        }
+
+        .form-style-5 label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .form-style-5 input[type="text"],
+        .form-style-5 input[type="date"],
+        .form-style-5 input[type="datetime"],
+        .form-style-5 input[type="email"],
+        .form-style-5 input[type="number"],
+        .form-style-5 input[type="search"],
+        .form-style-5 input[type="time"],
+        .form-style-5 input[type="url"],
+        .form-style-5 textarea,
+        .form-style-5 select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 30px;
+            font-family: Georgia, "Times New Roman", Times, serif;
+            font-size: 15px;
+            color: black;
+            background-color: #e8eeef;
+            border: none;
+            border-radius: 4px;
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+            box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+        }
+
+            .form-style-5 input[type="text"]:focus,
+            .form-style-5 input[type="date"]:focus,
+            .form-style-5 input[type="datetime"]:focus,
+            .form-style-5 input[type="email"]:focus,
+            .form-style-5 input[type="number"]:focus,
+            .form-style-5 input[type="search"]:focus,
+            .form-style-5 input[type="time"]:focus,
+            .form-style-5 input[type="url"]:focus,
+            .form-style-5 textarea:focus,
+            .form-style-5 select:focus {
+                background: #d2d9dd;
+            }
+
+        .form-style-5 select {
+            -webkit-appearance: menulist-button;
+            height: 40px;
+            color: black;
+        }
+
+        .form-style-5 .number {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            margin-right: 4px;
+            text-align: center;
+            font-size: 0.8em;
+            font-weight: bold;
+            color: #fff;
+            background: #198754;
+            border-radius: 15px 15px 15px 0;
+            text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+        }
+
+        .form-style-5 input[type="submit"],
+        .form-style-5 input[type="button"] {
+            display: block;
+            width: 30%;
+            margin: 0 auto 10px auto;
+            color: #fff;
+            background: #198754;
+            font-size: 18px;
+            font-style: normal;
+            text-align: center;
+            border: 1px solid #198754;
+            border-width: 1px 1px 3px;
+        }
+
+            .form-style-5 input[type="submit"]:hover,
+            .form-style-5 input[type="button"]:hover {
+                background: #109177;
+            }
+
+    a.btn {
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+        vertical-align: bottom;
+    }
+
+        a.btn:hover {
+            opacity: 0.8;
+        }
+</style>
+
+<body>
+    <div class="form-style-5">
+        <form asp-action="Found" enctype="multipart/form-data" method="post">
+            <legend><span class="number"></span> Fill this form with information regarding the animal you found</legend>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Race" class="control-label">Race</label>
+                        <input asp-for="Race" class="form-control" required />
+                        <span asp-validation-for="Race" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Color" class="control-label">Color</label>
+                        <input asp-for="Color" class="form-control" required />
+                        <span asp-validation-for="Color" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Gender" class="control-label">Gender</label>
+                        <select asp-for="Gender" class="form-control" required>
+                            <option value="">-- Choose Gender --</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
+                        <span asp-validation-for="Gender" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Height" class="control-label">Height</label>
+                        <input asp-for="Height" class="form-control" required />
+                        <span asp-validation-for="Height" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Location_Id" class="control-label">Location</label>
+                        <select asp-for="Location_Id" asp-items="@ViewBag.Locations" class="form-control" required>
+                            <option value="">-- Select a location --</option>
+                        </select>
+                        <span asp-validation-for="Location_Id" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Species" class="control-label">Species</label>
+                        <input asp-for="Species" class="form-control" required />
+                        <span asp-validation-for="Species" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Treatment_Needed" class="control-label">Health problems(if it is the case)</label>
+                        <select asp-for="Treatment_Needed" asp-items="@ViewBag.Specialties" class="form-control">
+                            <option value="">-- Select a treatment --</option>
+                        </select>
+                        <span asp-validation-for="Treatment_Needed" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Person_Name" class="control-label">Your name</label>
+                        <input asp-for="Person_Name" class="form-control" required />
+                        <span asp-validation-for="Person_Name" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Image" class="control-label">Photo</label>
+                        <div class="custom-file">
+                            <input asp-for="Image" class="custom-file-input" id="customFile" />
+                        </div>
+                        <span asp-validation-for="Image" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Current_Holder_PhoneNumber" class="control-label">Phone Number</label>
+                        <input asp-for="Current_Holder_PhoneNumber" class="form-control" required />
+                        <span asp-validation-for="Current_Holder_PhoneNumber" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Submit" class="btn btn-primary btn-lg" />
+                <a class="btn btn-outline-secondary" asp-action="Index">Back to homepage</a>
+            </div>
+        </form>
+    </div>
+</body>

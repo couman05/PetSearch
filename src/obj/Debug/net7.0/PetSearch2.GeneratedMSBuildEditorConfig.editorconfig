@@ -1,0 +1,101 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PetSearch2
+build_property.RootNamespace = PetSearch2
+build_property.ProjectDir = C:\Users\emanu\Desktop\II\Proiect\PetSearch2 21.05\PetSearch2\PetSearch2\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\emanu\Desktop\II\Proiect\PetSearch2 21.05\PetSearch2\PetSearch2
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/emanu/Desktop/II/Proiect/PetSearch2 21.05/PetSearch2/PetSearch2/Views/Animals/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emanu/Desktop/II/Proiect/PetSearch2 21.05/PetSearch2/PetSearch2/Views/Animals/NewAnimal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsc1xOZXdBbmltYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emanu/Desktop/II/Proiect/PetSearch2 21.05/PetSearch2/PetSearch2/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emanu/Desktop/II/Proiect/PetSearch2 21.05/PetSearch2/PetSearch2/Views/MainpageVets/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbnBhZ2VWZXRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emanu/Desktop/II/Proiect/PetSearch2 21.05/PetSearch2/PetSearch2/Views/MainpageVets/MatchingTasks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbnBhZ2VWZXRzXE1hdGNoaW5nVGFza3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emanu/Desktop/II/Proiect/PetSearch2 21.05/PetSearch2/PetSearch2/Views/Mainpage/AssignTask.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbnBhZ2VcQXNzaWduVGFzay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emanu/Desktop/II/Proiect/PetSearch2 21.05/PetSearch2/PetSearch2/Views/Mainpage/Found.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbnBhZ2VcRm91bmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emanu/Desktop/II/Proiect/PetSearch2 21.05/PetSearch2/PetSearch2/Views/Mainpage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbnBhZ2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emanu/Desktop/II/Proiect/PetSearch2 21.05/PetSearch2/PetSearch2/Views/Mainpage/Lost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbnBhZ2VcTG9zdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emanu/Desktop/II/Proiect/PetSearch2 21.05/PetSearch2/PetSearch2/Views/Mainpage/MatchingAnimals.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbnBhZ2VcTWF0Y2hpbmdBbmltYWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emanu/Desktop/II/Proiect/PetSearch2 21.05/PetSearch2/PetSearch2/Views/Mainpage/MatchingAnimalsFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbnBhZ2VcTWF0Y2hpbmdBbmltYWxzRm91bmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emanu/Desktop/II/Proiect/PetSearch2 21.05/PetSearch2/PetSearch2/Views/Persons/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emanu/Desktop/II/Proiect/PetSearch2 21.05/PetSearch2/PetSearch2/Views/Persons/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uc1xMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emanu/Desktop/II/Proiect/PetSearch2 21.05/PetSearch2/PetSearch2/Views/Persons/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uc1xSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emanu/Desktop/II/Proiect/PetSearch2 21.05/PetSearch2/PetSearch2/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emanu/Desktop/II/Proiect/PetSearch2 21.05/PetSearch2/PetSearch2/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emanu/Desktop/II/Proiect/PetSearch2 21.05/PetSearch2/PetSearch2/Views/Vets/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmV0c1xMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emanu/Desktop/II/Proiect/PetSearch2 21.05/PetSearch2/PetSearch2/Views/Vets/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmV0c1xSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emanu/Desktop/II/Proiect/PetSearch2 21.05/PetSearch2/PetSearch2/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emanu/Desktop/II/Proiect/PetSearch2 21.05/PetSearch2/PetSearch2/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emanu/Desktop/II/Proiect/PetSearch2 21.05/PetSearch2/PetSearch2/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-unrk7oqs3l

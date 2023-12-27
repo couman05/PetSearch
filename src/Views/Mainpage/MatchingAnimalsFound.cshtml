@@ -1,0 +1,135 @@
+﻿@model IEnumerable<PetSearch2.Models.Animals>
+
+@{
+    ViewData["Title"] = "Matching animals";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - PetSearch</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/PetSearch2.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand">PetSearch</a>
+
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="MainPage" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Log Out</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+
+</body>
+</html>
+<style>
+    .container {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .photo {
+        width: 400px;
+        height: 400px;
+        overflow: hidden;
+        margin-right: 16px;
+        flex-shrink: 0; /* Prevent the photo from shrinking */
+    }
+
+        .photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+    .cards-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        display: inline-block;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 16px;
+        width: 300px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+        margin: 0 16px 16px 0;
+    }
+
+        .card h3 {
+            margin-top: 0;
+            font-size: 18px;
+            color: #262626;
+        }
+
+        .card p {
+            margin-bottom: 8px;
+            font-size: 14px;
+            color: #555;
+        }
+
+    .card-deck {
+        margin-top: 5vh;
+    }
+
+    .centered-title {
+        text-align: center;
+        position: absolute;
+        top: 2%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 24px;
+    }
+</style>
+
+<h4 class="text-center text-uppercase">List of matching animals</h4>
+
+@if (Model != null && Model.Any())
+{
+    <div class="card-deck">
+        @foreach (var animal in Model)
+        {
+            <div class="card">
+                <img src="~/images/@animal.Animal_Image" class="card-img-top" alt="Animal Image">
+                <div class="card-body">
+                    <h5 class="card-title">@animal.Animal_Name</h5>
+                    <p class="card-text">
+                        <strong>Race:</strong> @animal.Race<br>
+                        <strong>Color:</strong> @animal.Color<br>
+                        <strong>Gender:</strong> @animal.Gender<br>
+                        <strong>Height:</strong> @animal.Height<br>
+                        <strong>Species:</strong> @animal.Species<br>
+                        <strong>Location:</strong> @animal.Location?.Location<br>
+                        <strong>Current Holder Phone Number:</strong> @animal.Current_Holder_PhoneNumber
+                    </p>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p>No matching animals found.</p>
+}

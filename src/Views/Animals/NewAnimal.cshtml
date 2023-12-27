@@ -1,0 +1,105 @@
+﻿@model PetSearch2.ViewModels.AnimalsViewModel
+
+@{
+    ViewData["Title"] = "New";
+}
+
+<div class="col-md-10 mx-auto py-4">
+    <div class="card">
+        <div class="card-header bg-primary text-uppercase text-white">
+            <h4>Add New </h4>
+        </div>
+        <div class="card-body">
+            <form enctype="multipart/form-data" asp-action="NewAnimal">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="Animal_Name" class="control-label"></label>
+                            <input asp-for="Animal_Name" class="form-control" />
+                            <span asp-validation-for="Animal_Name" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="Race" class="control-label"></label>
+                            <input asp-for="Race" class="form-control" />
+                            <span asp-validation-for="Race" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="Gender" class="control-label"></label>
+                            <select asp-for="Gender" class="form-control">
+                                <option value="">Choose Gender</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                            </select>
+                            <span asp-validation-for="Gender" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="Color" class="control-label"></label>
+                            <input asp-for="Color" class="form-control" />
+                            <span asp-validation-for="Color" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="Height" class="control-label"></label>
+                            <input asp-for="Height" class="form-control" />
+                            <span asp-validation-for="Height" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="Species" class="control-label"></label>
+                            <input asp-for="Species" class="form-control" />
+                            <span asp-validation-for="Species" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="Location_Id" class="control-label"></label>
+                            <input asp-for="Location_Id" class="form-control" />
+                            <span asp-validation-for="Location_Id" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="Image" class="control-label"></label>
+                            <div class="custom-file">
+                                <input asp-for="Image" class="custom-file-input" id="customFile">
+                                <label class="custom-file-label" for="customFile">Choose file</label>
+                            </div>
+                            <span asp-validation-for="Image" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="submit" class="btn btn-sm btn-primary rounded-0 text-uppercase" />
+                    <a asp-action="Index" class="btn btn-sm btn-primary rounded-0 text-uppercase"><i class="fas fa-fast-backward"></i> Back to List</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+	@{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

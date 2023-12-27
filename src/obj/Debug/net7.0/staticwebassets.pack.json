@@ -1,0 +1,425 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\PetSearch2.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PetSearch2.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\images\\02c2e3eb-0e57-45b9-884b-790b157a983b_272083330_1602717613397391_264157514461150862_n.jpg",
+      "PackagePath": "staticwebassets\\images\\02c2e3eb-0e57-45b9-884b-790b157a983b_272083330_1602717613397391_264157514461150862_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\images\\06cc37f2-ee6c-4dbb-a8f3-562669d56965_Golden-Retriever.jpg",
+      "PackagePath": "staticwebassets\\images\\06cc37f2-ee6c-4dbb-a8f3-562669d56965_Golden-Retriever.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\images\\17fc1ec3-4b82-44b0-b7d0-117cce837965_Carnet_Student.jpg",
+      "PackagePath": "staticwebassets\\images\\17fc1ec3-4b82-44b0-b7d0-117cce837965_Carnet_Student.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\images\\18aef836-6a87-43a2-9d44-93c77b81ee22_Puffy.jpg",
+      "PackagePath": "staticwebassets\\images\\18aef836-6a87-43a2-9d44-93c77b81ee22_Puffy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\images\\2129d818-4463-4dfb-abf3-5a7cd7d07d74_296721115_808278673665031_6023217193557496357_n.jpg",
+      "PackagePath": "staticwebassets\\images\\2129d818-4463-4dfb-abf3-5a7cd7d07d74_296721115_808278673665031_6023217193557496357_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\images\\228bc139-c450-40a2-98be-fb015f7ce595_296721115_808278673665031_6023217193557496357_n.jpg",
+      "PackagePath": "staticwebassets\\images\\228bc139-c450-40a2-98be-fb015f7ce595_296721115_808278673665031_6023217193557496357_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\images\\25fcf1d0-a513-4377-98d3-971c8f9017f1_Husky.jpg",
+      "PackagePath": "staticwebassets\\images\\25fcf1d0-a513-4377-98d3-971c8f9017f1_Husky.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\images\\3d485348-9f0e-4cd1-a102-b3cedf0d5f52_Puffy.jpg",
+      "PackagePath": "staticwebassets\\images\\3d485348-9f0e-4cd1-a102-b3cedf0d5f52_Puffy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\images\\3f75b9df-7eff-43fa-98b0-a5277ed59f53_296721115_808278673665031_6023217193557496357_n.jpg",
+      "PackagePath": "staticwebassets\\images\\3f75b9df-7eff-43fa-98b0-a5277ed59f53_296721115_808278673665031_6023217193557496357_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\images\\4b5d15d0-53ff-4579-bb89-e838e5213cbc_Puffy.jpg",
+      "PackagePath": "staticwebassets\\images\\4b5d15d0-53ff-4579-bb89-e838e5213cbc_Puffy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\images\\5b9f3843-cdeb-4293-9ceb-2c88e41037cd_296721115_808278673665031_6023217193557496357_n.jpg",
+      "PackagePath": "staticwebassets\\images\\5b9f3843-cdeb-4293-9ceb-2c88e41037cd_296721115_808278673665031_6023217193557496357_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\images\\5f0f7e83-5c1b-45d4-b324-c646e936691c_272083330_1602717613397391_264157514461150862_n.jpg",
+      "PackagePath": "staticwebassets\\images\\5f0f7e83-5c1b-45d4-b324-c646e936691c_272083330_1602717613397391_264157514461150862_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\images\\9c23bbe5-d921-4e98-95cd-d8dfb135054e_Husky.jpg",
+      "PackagePath": "staticwebassets\\images\\9c23bbe5-d921-4e98-95cd-d8dfb135054e_Husky.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\images\\abde375c-25a8-4956-848e-4b331b1f217a_296721115_808278673665031_6023217193557496357_n.jpg",
+      "PackagePath": "staticwebassets\\images\\abde375c-25a8-4956-848e-4b331b1f217a_296721115_808278673665031_6023217193557496357_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\images\\af3952ed-23e5-4a0f-8650-225b02cddc77_Carnet_Student.jpg",
+      "PackagePath": "staticwebassets\\images\\af3952ed-23e5-4a0f-8650-225b02cddc77_Carnet_Student.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\images\\background_homepage\\cats.jpg",
+      "PackagePath": "staticwebassets\\images\\background_homepage\\cats.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\images\\background_homepage\\catsdogs.jpg",
+      "PackagePath": "staticwebassets\\images\\background_homepage\\catsdogs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\images\\background_homepage\\dogs.jpg",
+      "PackagePath": "staticwebassets\\images\\background_homepage\\dogs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\images\\background_lostpage\\cat.jpg",
+      "PackagePath": "staticwebassets\\images\\background_lostpage\\cat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\images\\background_lostpage\\cat1.jpg",
+      "PackagePath": "staticwebassets\\images\\background_lostpage\\cat1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\images\\background_lostpage\\cat2.jpg",
+      "PackagePath": "staticwebassets\\images\\background_lostpage\\cat2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\images\\background_lostpage\\catincrezator.jpg",
+      "PackagePath": "staticwebassets\\images\\background_lostpage\\catincrezator.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\images\\background_lostpage\\dog5.jpg",
+      "PackagePath": "staticwebassets\\images\\background_lostpage\\dog5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\images\\background_lostpage\\lame.jpg",
+      "PackagePath": "staticwebassets\\images\\background_lostpage\\lame.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\images\\background_lostpage\\task.jpg",
+      "PackagePath": "staticwebassets\\images\\background_lostpage\\task.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\images\\c61427da-b981-4b78-bd4e-6bb49b45aec9_296721115_808278673665031_6023217193557496357_n.jpg",
+      "PackagePath": "staticwebassets\\images\\c61427da-b981-4b78-bd4e-6bb49b45aec9_296721115_808278673665031_6023217193557496357_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\images\\cb09dafc-20dc-40cf-b5a5-747442f8e355_272083330_1602717613397391_264157514461150862_n.jpg",
+      "PackagePath": "staticwebassets\\images\\cb09dafc-20dc-40cf-b5a5-747442f8e355_272083330_1602717613397391_264157514461150862_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\images\\cddee1eb-8181-45f3-9b59-776f6a3e4619_296721115_808278673665031_6023217193557496357_n.jpg",
+      "PackagePath": "staticwebassets\\images\\cddee1eb-8181-45f3-9b59-776f6a3e4619_296721115_808278673665031_6023217193557496357_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\images\\d665130e-7f7b-4e7a-b46c-b8204349f0c1_Puffy.jpg",
+      "PackagePath": "staticwebassets\\images\\d665130e-7f7b-4e7a-b46c-b8204349f0c1_Puffy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\images\\df30191b-891a-46d7-8053-4cbf9324888f_Golden-Retriever.jpg",
+      "PackagePath": "staticwebassets\\images\\df30191b-891a-46d7-8053-4cbf9324888f_Golden-Retriever.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\images\\main_page\\cateat.jpg",
+      "PackagePath": "staticwebassets\\images\\main_page\\cateat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\images\\main_page\\doggo.jpg",
+      "PackagePath": "staticwebassets\\images\\main_page\\doggo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\images\\main_page\\doggy.jpg",
+      "PackagePath": "staticwebassets\\images\\main_page\\doggy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\images\\main_page\\dogscatss.jpg",
+      "PackagePath": "staticwebassets\\images\\main_page\\dogscatss.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\images\\main_page\\goat.jpg",
+      "PackagePath": "staticwebassets\\images\\main_page\\goat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\images\\main_page\\goatsjpg.jpg",
+      "PackagePath": "staticwebassets\\images\\main_page\\goatsjpg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\images\\main_page\\landscape.jpg",
+      "PackagePath": "staticwebassets\\images\\main_page\\landscape.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\images\\main_page\\rabbit.jpg",
+      "PackagePath": "staticwebassets\\images\\main_page\\rabbit.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\images\\vet_mainpage\\doggos.jpg",
+      "PackagePath": "staticwebassets\\images\\vet_mainpage\\doggos.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\images\\vet_mainpage\\dogland.jpg",
+      "PackagePath": "staticwebassets\\images\\vet_mainpage\\dogland.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\emanu\\Desktop\\II\\Proiect\\PetSearch2 21.05\\PetSearch2\\PetSearch2\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.PetSearch2.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.PetSearch2.props",
+      "PackagePath": "build\\PetSearch2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.PetSearch2.props",
+      "PackagePath": "buildMultiTargeting\\PetSearch2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.PetSearch2.props",
+      "PackagePath": "buildTransitive\\PetSearch2.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
