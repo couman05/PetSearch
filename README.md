@@ -26,8 +26,6 @@ PetSearch is a community-driven C# web application created to address the challe
 
 ## Usage and screenshots of application functionalities
 
-- **Landing page**
-
 - **Login page**
 
 ![image](https://github.com/couman05/PetSearch/assets/103687306/78137510-6258-4ce8-a1ec-45d41be3b839)
